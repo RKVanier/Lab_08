@@ -46,7 +46,6 @@ public class Lab02_RayanKhales extends Application{
         BorderPane.setAlignment(top, Pos.CENTER);
         BorderPane.setAlignment(middle, Pos.CENTER);
         BorderPane.setAlignment(bottom, Pos.CENTER);
-        
         root.setCenter(middle);
         
         String path = "file:src/images/";
