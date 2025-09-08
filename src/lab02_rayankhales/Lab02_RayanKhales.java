@@ -1,3 +1,4 @@
+//https://github.com/RKVanier/Lab_02--Fall-2025/tree/master
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
@@ -12,6 +13,7 @@ import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 import javafx.scene.image.*; 
 import java.util.Random;
+import javafx.geometry.Pos;
 
 /**
  *
@@ -40,6 +42,11 @@ public class Lab02_RayanKhales extends Application{
         root.setTop(top);
         root.setBottom(bottom);
         middle.getChildren().add(lblImage);
+        middle.setAlignment(Pos.CENTER);
+        BorderPane.setAlignment(top, Pos.CENTER);
+        BorderPane.setAlignment(middle, Pos.CENTER);
+        BorderPane.setAlignment(bottom, Pos.CENTER);
+        
         root.setCenter(middle);
         
         String path = "file:src/images/";
@@ -49,9 +56,7 @@ public class Lab02_RayanKhales extends Application{
         lblImage.setGraphic(new ImageView(image));
          
         primarystage.setScene(scene);
-        primarystage.show();
-        
-        
+        primarystage.show();  
     }
     
 }
