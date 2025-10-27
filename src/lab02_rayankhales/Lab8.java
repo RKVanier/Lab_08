@@ -1,4 +1,4 @@
-//https://github.com/RKVanier/Lab_02--Fall-2025/tree/master
+//https://github.com/RKVanier/Lab_08.git
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
@@ -24,7 +24,7 @@ import javafx.util.Duration;
  *
  * @author 6241246
  */
-public class Lab02_RayanKhales extends Application{
+public class Lab8 extends Application{
 
     /**
      * @param args the command line arguments
